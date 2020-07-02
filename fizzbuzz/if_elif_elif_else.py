@@ -13,3 +13,7 @@ def fizz_buzz(n: int) -> str:
 
 def test_if_elif_elif_else():
     check_function(fizz_buzz)
+
+
+if __name__ == "__main__":
+    test_if_elif_elif_else()

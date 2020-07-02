@@ -18,3 +18,7 @@ output = [label(chunk, n+1) for n, chunk in enumerate(chunks)]
 
 def test_big_number():
     check_output(output)
+
+
+if __name__ == "__main__":
+    test_big_number()

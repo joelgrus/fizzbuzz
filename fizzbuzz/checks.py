@@ -18,6 +18,10 @@ FIZZ_BUZZ = [
 
 
 def check_output(output: List[str]) -> None:
+    # If we print this out, we can use it as __main__ too!
+    for i, fb in enumerate(output):
+        print(i+1, fb)
+
     assert len(output) == 100, "output should have length 100"
 
     # Collect all the errors in a list

@@ -11,3 +11,7 @@ def fizz_buzz(n: int) -> str:
 
 def test_matrix_multiplication():
     check_function(fizz_buzz)
+
+
+if __name__ == "__main__":
+    test_matrix_multiplication()

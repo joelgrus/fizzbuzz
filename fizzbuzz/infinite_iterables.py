@@ -15,3 +15,7 @@ output = [next(fizz_buzzes) for _ in range(100)]
 
 def test_infinite_iterables():
     check_output(output)
+
+
+if __name__ == "__main__":
+    test_infinite_iterables()

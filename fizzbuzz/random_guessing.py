@@ -21,3 +21,7 @@ output = [next(fb) for _ in range(100)]
 
 def test_random_guessing():
     check_output(output)
+
+
+if __name__ == "__main__":
+    test_random_guessing()

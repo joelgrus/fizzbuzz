@@ -12,3 +12,7 @@ def fizz_buzz(n: int) -> str:
 
 def test_cycle_of_15():
     check_function(fizz_buzz)
+
+
+if __name__ == "__main__":
+    test_cycle_of_15()
