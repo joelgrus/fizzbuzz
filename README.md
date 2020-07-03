@@ -2,7 +2,7 @@
 
 Here are the ten solutions from the book
 [Ten Essays on Fizz Buzz](https://fizzbuzzbook.com).
-Please enjoy them, but also please check out the book.
+Please enjoy them. If you find them intriguing (and how could you not?), please check out the book.
 
 1. [100 Print Statements](fizzbuzz/one_hundred_print_statements.py)
 2. [if / elif / elif / else](fizzbuzz/if_elif_elif_else.py)
